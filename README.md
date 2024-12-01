@@ -62,4 +62,64 @@
   </footer>
 </body>
 </html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#home {
+  background: url('hero.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.product-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
 
